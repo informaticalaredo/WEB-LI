@@ -7,9 +7,10 @@
 }
 			#topBG {
 	background-color: #FFF;
-	background-image: url(../media/Sin%20t%C3%ADtulo-1.jpg);
+	background-image: url(../img/topBG.jpg);
 	background-repeat: repeat-x;
 	height: 100px;
+	width: 100%;
 }
 .ancho960 {
 	width: 960px;
@@ -24,9 +25,12 @@
 }
 #nav {
 	float: right;
-	width: 500px;
+	margin-top: 45px;
 }
-#nav a {
+#nav  li{
+	float: left;
+}
+#nav a  {
 	-webkit-border-radius: 10px;
 	-moz-border-radius: 10px;
 	border-radius: 10px;
@@ -43,25 +47,32 @@
 
 
 
-	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#004b7b', endColorstr='#207cca',GradientType=0 ); /* IE6-9 */
-	display: block;
+
+
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#004b7b', endColorstr='#207cca',GradientType=0 );
 
 	float: ;
 	padding-top: 10px;
 	padding-right: 15px;
 	padding-bottom: 10px;
 	padding-left: 15px;
-	margin-top: 40px;
 	color: #FFF;
-	margin-left: 10px;
 	text-transform: uppercase;
-	float: right;
+	margin-left: 10px;
 }
 			#seccion {
 	background-color: #006;
-	height: 310px;
+	height: 280px;
 	margin-top: 60px;
+	margin-bottom: 40px;
 }
+h2 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 20px;
+	color: #004e81;
+	text-transform: uppercase;
+}
+
             #seccionTexto h1 {
 	font-family: Arial, Helvetica, sans-serif;
 	font-size: 40px;
@@ -97,6 +108,11 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cca043', end
 	margin-top: 20px;
 	margin-bottom: 20px;
 }
+#seccion img {
+	float: right;
+	margin-top: -25px;
+}
+
 .btnNaranja {
 	background-color: #F90;
 	padding: 10px;
