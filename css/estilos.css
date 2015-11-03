@@ -24,7 +24,6 @@
 	float: left;
 }
 #nav {
-<<<<<<< HEAD
 	float: right;
 	margin-top: 45px;
 }
@@ -32,20 +31,6 @@
 	float: left;
 }
 #nav a  {
-=======
-	/* [disabled]float: right; */
-
-}
-#seccion {
-	background-color: #006;
-	height: 310px;
-	margin-top: 60px;
-}
-
-
-
-#nav a {
->>>>>>> master
 	-webkit-border-radius: 10px;
 	-moz-border-radius: 10px;
 	border-radius: 10px;
@@ -64,28 +49,9 @@
 
 
 
-<<<<<<< HEAD
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#004b7b', endColorstr='#207cca',GradientType=0 );
 
 	float: ;
-=======
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#004e81', endColorstr='#00293f',GradientType=0 ); /* IE6-9 */
-	color: #FFF;
->>>>>>> master
 	padding-top: 10px;
 	padding-right: 15px;
 	padding-bottom: 10px;
@@ -105,10 +71,8 @@ h2 {
 	font-size: 20px;
 	color: #004e81;
 	text-transform: uppercase;
-	float: left;
 }
 
-<<<<<<< HEAD
             #seccionTexto h1 {
 	font-family: Arial, Helvetica, sans-serif;
 	font-size: 40px;
@@ -125,10 +89,6 @@ h2 {
 }
 
             
-=======
-
-
->>>>>>> master
 #nav a:hover {
 	color: #003;
 	background-color: /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#cca043+0,c67b25+100,bc7a1e+100,e29d3d+100 */
@@ -161,35 +121,4 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cca043', end
 	font-size: 16px;
 	color: #FFF;
 	float: right;
-}
-#seccionTexto {
-	float: left;
-	padding-top: 40px;
-	padding-right: 25px;
-	padding-bottom: 30px;
-	padding-left: 25px;
-	width: 375px;
-}
-#seccionTexto p {
-	font-family: Arial, Helvetica, sans-serif;
-	font-size: 14px;
-	color: #FFF;
-	margin-top: 20px;
-	margin-bottom: 20px;
-}
-.btnNaranja {
-	background-color: #F90;
-	padding: 10px;
-	text-decoration: none;
-	font-family: Arial, Helvetica, sans-serif;
-	font-size: 16px;
-	color: #FFF;
-	float: right;
-}
-
-
-#seccionTexto h1 {
-	color: #FFF;
-	font-family: Arial, Helvetica, sans-serif;
-	font-size: 40px;
 }
